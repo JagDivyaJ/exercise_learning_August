@@ -52,6 +52,10 @@ public class ApplPageElements {
 	@FindBy(xpath = "//table[@id='customers-grid']/tbody[1]/tr[1]/td[2]")
 	
 	WebElement result_email;
+	
+	@FindBy(partialLinkText = "ogou")
+
+	WebElement btn_Logout;
 
 	
 
@@ -122,10 +126,8 @@ public class ApplPageElements {
 	public void clickSearchbutton() throws Exception {
 
 		//search_btn.click();
-		
 		clickOnEle(search_btn, 1000);
 //		Thread.sleep(5000);
-		//System.out.println("Result is " + result_email.getText());
 
 	}
 	
@@ -143,6 +145,12 @@ public class ApplPageElements {
 		ele.click();
 		Thread.sleep(delay);
 		
+	}
+	
+	public void clickLogoutButton() {
+
+		btn_Logout.click();
+
 	}
 
 }

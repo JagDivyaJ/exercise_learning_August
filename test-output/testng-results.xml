@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11693" started-at="2023-08-04T10:14:03Z" finished-at="2023-08-04T10:14:15Z">
+  <suite name="Suite" duration-ms="24454" started-at="2023-08-08T07:08:36Z" finished-at="2023-08-08T07:09:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11693" started-at="2023-08-04T10:14:03Z" finished-at="2023-08-04T10:14:15Z">
+    <test name="Test" duration-ms="24454" started-at="2023-08-08T07:08:36Z" finished-at="2023-08-08T07:09:01Z">
       <class name="testAutomation.ApplPageData">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:testAutomation.ApplPageData@f6c48ac]" name="launchApp" is-config="true" duration-ms="4468" started-at="2023-08-04T03:14:03Z" finished-at="2023-08-04T03:14:08Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testAutomation.ApplPageData@5442a311]" name="launchApp" is-config="true" duration-ms="4325" started-at="2023-08-08T00:08:36Z" finished-at="2023-08-08T00:08:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="verifySearchCustomerEmail(java.lang.String)[pri:0, instance:testAutomation.ApplPageData@f6c48ac]" name="verifySearchCustomerEmail" duration-ms="6316" started-at="2023-08-04T03:14:08Z" data-provider="validTestData" finished-at="2023-08-04T03:14:14Z">
+        <test-method status="PASS" signature="verifySearchCustomerEmail(java.lang.String)[pri:0, instance:testAutomation.ApplPageData@5442a311]" name="verifySearchCustomerEmail" duration-ms="8177" started-at="2023-08-08T00:08:40Z" data-provider="validTestData" finished-at="2023-08-08T00:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arthur_holmes@nopCommerce.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCustomerEmail -->
+        <test-method status="PASS" signature="verifySearchCustomerEmail(java.lang.String)[pri:0, instance:testAutomation.ApplPageData@5442a311]" name="verifySearchCustomerEmail" duration-ms="5527" started-at="2023-08-08T00:08:49Z" data-provider="validTestData" finished-at="2023-08-08T00:08:54Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +33,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchCustomerEmail -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testAutomation.ApplPageData@f6c48ac]" name="closeApp" is-config="true" duration-ms="885" started-at="2023-08-04T03:14:14Z" finished-at="2023-08-04T03:14:15Z">
+        <test-method status="PASS" signature="verifySearchCustomerEmail(java.lang.String)[pri:0, instance:testAutomation.ApplPageData@5442a311]" name="verifySearchCustomerEmail" duration-ms="5494" started-at="2023-08-08T00:08:54Z" data-provider="validTestData" finished-at="2023-08-08T00:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourStore.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCustomerEmail -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testAutomation.ApplPageData@5442a311]" name="closeApp" is-config="true" duration-ms="876" started-at="2023-08-08T00:09:00Z" finished-at="2023-08-08T00:09:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
